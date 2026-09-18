@@ -1,0 +1,9 @@
+# Sistema de Controle de Vagas (Estacionamento)
+
+Protótipo em Python para gerenciamento de vagas de estacionamento em tempo real.
+Cobre requisitos básicos de controle de estado: consulta, entrada (estacionar) e saída (liberar vaga), impedindo lotação máxima.
+
+## Como Executar
+Certifique-se de ter o Python instalado. No terminal, execute:
+```bash
+python nome_do_arquivo.py
