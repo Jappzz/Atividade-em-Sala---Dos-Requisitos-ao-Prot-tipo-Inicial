@@ -1,7 +1,10 @@
-vagas = 0
+vagas = 150
+
+#consultar vagas para ver quantas estao disponiveis
 def consultarVagas():
     print(vagas)
 
+#ocupar as vagas e atualizar o valor 
 def estacionar():
     global vagas
     if(vagas == 0):
@@ -9,6 +12,7 @@ def estacionar():
     else:
         vagas = vagas - 1
 
+#liberar um vaga no estacionamento
 def liberarVaga():
     global vagas
     
