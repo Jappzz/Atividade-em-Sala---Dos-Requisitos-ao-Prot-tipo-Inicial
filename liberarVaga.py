@@ -1,5 +1,4 @@
-from main import vagas
+import estado
 def liberarVaga():
-    global vagas
     
-    vagas = vagas + 1
+    estado.vagas = estado.vagas + 1

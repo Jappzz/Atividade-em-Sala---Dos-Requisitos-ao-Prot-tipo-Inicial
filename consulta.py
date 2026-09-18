@@ -1,4 +1,4 @@
-from main import vagas
+import estado
 #consultar vagas para ver quantas estao disponiveis
 def consultarVagas():
-    print(vagas)
+    print(estado.vagas)

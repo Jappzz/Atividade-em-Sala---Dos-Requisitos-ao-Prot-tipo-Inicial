@@ -2,8 +2,6 @@ from estacionar import estacionarVaga
 from consulta import consultarVagas
 from liberarVaga import liberarVaga
 
-vagas = 150
-
 
 if __name__=="__main__":
     consultarVagas()

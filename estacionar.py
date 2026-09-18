@@ -1,7 +1,6 @@
-from main import vagas
+import estado
 def estacionarVaga():
-    global vagas
-    if(vagas == 0):
+    if(estado.vagas == 0):
         print("não há mais vagas")
     else:
-        vagas = vagas - 1   
+        estado.vagas = estado.vagas - 1   
